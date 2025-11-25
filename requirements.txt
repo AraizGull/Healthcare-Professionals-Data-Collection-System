@@ -1,0 +1,11 @@
+# Core dependencies
+SQLAlchemy>=2.0
+phonenumbers>=8.13
+
+# Planned future features (Web API + Live Scraping + Auto Scheduler)
+# fastapi>=0.104
+# uvicorn[standard]>=0.24
+# requests>=2.31
+# beautifulsoup4>=4.12
+# apscheduler>=3.10
+# python-dotenv>=1.0
