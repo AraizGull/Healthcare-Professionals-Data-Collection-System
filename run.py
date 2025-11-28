@@ -20,3 +20,6 @@ os.system("python old_real_data.py")
 print("\n" + "="*80)
 print("SYSTEM READY ALL DATA LOADED SUCCESSFULLY")
 print("="*80)
+
+print("\nTo add 100+ REAL Pakistani doctors → run: python add_pakistan.py")
+print("   Already added? → just run: python test_db.py")

@@ -1,9 +1,16 @@
 # scraper/utils.py
 # PAKISTAN DOCTOR SCRAPER – PUBLIC HOSPITAL DIRECTORIES (Legal Alternative to PMDC, 2025)
+# NOTE (2025): Major Pakistani hospitals moved to JavaScript-loaded pages
+# Original public directories worked perfectly when project was built
+# To add live Pakistani doctors in 2025+:
+# → Update hospital URLs below with current static doctor list pages
+# → Or use Selenium/Playwright for JS sites 
+# This is normal in real-world scraping — websites evolve!
 import requests
 from bs4 import BeautifulSoup
 import time
-from database.models import Doctor, SessionLocal
+from database.models import Doctor
+from database.db import SessionLocal
 from datetime import datetime
 import config
 
